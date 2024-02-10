@@ -44,3 +44,36 @@ ul {
 #__next {
   isolation: isolate;
 }
+
+/* - Styling - */
+.hamburger__container {
+  background-color: transparent;
+  border: none;
+}
+
+.n-links__container {
+  display: none;
+}
+
+/* - Media Queries - */
+@media screen and (min-width: 48rem) {
+  /* Hamburger Menu */
+  .hamburger__container {
+    display: none;
+  }
+
+  /* Header */
+  nav {
+    display: flex;
+  }
+
+  .n-links__container {
+    border: 2px solid peachpuff;
+    display: flex;
+  }
+
+  .n-links__container ul {
+    display: flex;
+    align-self: center;
+  }
+}

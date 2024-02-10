@@ -21,9 +21,17 @@
     <header>
       <!-- Navagation -->
       <nav>
-        <div class="logo__container">
+        <a href="index.html" class="logo__container">
           <img src="./assets/images/logo.svg" alt="W. logo" />
-        </div>
+        </a>
+        <!-- Hamburger menu -->
+        <button class="hamburger__container">
+          <img
+            src="/assets/images/icon-menu.svg"
+            alt="An image that serves as the navagation menu on smaller screen sizes"
+          />
+        </button>
+
         <div class="n-links__container">
           <ul>
             <li><a href="#">Home</a></li>
@@ -45,8 +53,8 @@
             alt="An image with various shapes and colours"
           />
         </div>
-        <div class="h-text__container">
-          <h1>The Bright Future of Web 3.0?</h1>
+        <article class="h-text__container">
+          <p>The Bright Future of Web 3.0?</p>
           <div class="h-subtext__container">
             <p>
               We dive into the next evolution of the web that claims to put the power of the
@@ -54,22 +62,22 @@
             </p>
             <a class="btn" href="#">Read more</a>
           </div>
-        </div>
+        </article>
       </div>
 
       <!-- Sidebar -->
       <aside class="aside__wrapper" aria-label="Latest News This Week">
-        <h2>New</h2>
+        <h1>New</h1>
         <article>
-          <h3>New Hydrogen VS Electric Cars</h3>
+          <a href="#">New Hydrogen VS Electric Cars</a>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         </article>
         <article>
-          <h3>The Downsides of AI Artistry</h3>
+          <a href="#">The Downsides of AI Artistry</a>
           <p>What are the possible adverse effects of on-demand AI image generation?</p>
         </article>
         <article>
-          <h3>Is VC Funding Drying Up?</h3>
+          <a href="#">Is VC Funding Drying Up?</a>
           <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
         </article>
       </aside>
@@ -84,10 +92,15 @@
             />
           </div>
           <div class="a-text__container">
-            <h3>01 Reviving Retro PCs</h3>
-            <p>What happens when old PCs are given modern upgrades?</p>
+            <ol>
+              <li>
+                <a href="#">Reviving Retro PCs</a>
+                <p>What happens when old PCs are given modern upgrades?</p>
+              </li>
+            </ol>
           </div>
         </article>
+
         <article>
           <div class="a-image__container">
             <img
@@ -96,10 +109,15 @@
             />
           </div>
           <div class="a-text__container">
-            <h3>02 Top 10 Laptops of 2022</h3>
-            <p>Our best picks for various needs and budgets.</p>
+            <ol>
+              <li>
+                <a href="#">Top 10 Laptops of 2022</a>
+                <p>Our best picks for various needs and budgets.</p>
+              </li>
+            </ol>
           </div>
         </article>
+
         <article>
           <div class="a-image__container">
             <img
@@ -108,8 +126,12 @@
             />
           </div>
           <div class="a-text__container">
-            <h3>03 The Growth of Gaming</h3>
-            <p>How the pandemic has sparked fresh opportunities.</p>
+            <ol>
+              <li>
+                <a href="#">The Growth of Gaming</a>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+              </li>
+            </ol>
           </div>
         </article>
       </div>
